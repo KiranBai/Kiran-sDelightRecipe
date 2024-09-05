@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Kiran's Delight | Smart Map</title>
+        <link rel="stylesheet" type="text/css" href="styles/style_index.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="index.html">
+                        <i class="material-icons">restaurant_menu</i>Kiran's Delight
+                    </a>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">About Us</a></li>
+                <li><a href="map.html">Explore Recipes</a></li>
+                <li><a href="create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <div class="map">
+            <h1>Smart Map</h1>
+            <p>Explore recipes from cuisines across the world using our <b>Smart Map</b>!</p>
+            <table>
+                <tr>
+                    <td>
+                        <img src="assets/main/map_recipes.png" alt="eurasia_map" width="700px" height="495px" usemap="#cusines">
+                        <map name="cusines">
+                            <area shape="rect" coords="513,328,607,370" href="south_indian_map.html" alt="SOUTH INDIAN" target="display_area">
+                            <area shape="rect" coords="496,250,586,303" href="Pakistani_indian_map.html" alt="NORTH INDIAN" target="display_area">
+                            <area shape="rect" coords="592,229,653,283" href="chinese_map.html" alt="CHINESE" target="display_area">
+                            <area shape="rect" coords="283,200,342,246" href="italian_map.html" alt="ITALIAN" target="display_area">
+                        </map>
+                    </td>
+                    <td>
+                        <div class="cusine-map">
+                            <iframe src="map_default.html" title="display_area" name="display_area"></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <p style="text-align: center;">Welcome you on <h2>Kiran's Delights!</h2></p>
+
+                <p>At Kiran's Delight, we believe that food is more than just sustenance—it's a way to bring people together, share cultures, and create memories. Whether you're a seasoned chef or just starting your culinary journey, our goal is to provide you with recipes that are easy to follow, delicious, and made with love.
+                
+                Our team is passionate about food and dedicated to exploring new flavors, techniques, and cuisines. We understand that life can be busy, so we focus on creating recipes that are simple, wholesome, and can be prepared with ingredients you already have at home.
+                
+                What We Offer:
+                
+                Diverse Recipes: From quick weeknight dinners to elaborate weekend feasts, our collection spans a variety of cuisines and dietary preferences.
+                Tips & Tricks: We share kitchen hacks, cooking techniques, and ingredient substitutions to help you become more confident in the kitchen.
+                Community: We love hearing from our readers! Share your own tips, ask questions, and connect with fellow food lovers.
+                Thank you for joining us on this culinary adventure. We hope our recipes inspire you to cook, share, and enjoy every meal.
+                
+                Happy Cooking!</p>
+            <h2>Happy Clients</h2>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="assets/HappyClients/Razaque.png">
+                    <h4>Razaque Goraya </h4>
+                    <p>Knowlege Center Pakistan</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/HappyClients/Hitesh.png">
+                    <h4>Hitesh Choudary</h4>
+                    <p>Lacknow Pack India</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/HappyClients/Lovely.png">
+                    <h4>Lovely Singh</h4>
+                    <p>Stanford Mark USA</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/HappyClients/Radhika.png">
+                    <h4>Radhika Talreja</h4>
+                    <p>Amritsar India</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/HappyClients/Adesh.png" width="200px">
+                    <h4>Adesh Talreja</h4>
+                    <p>General Center Pakistan</p>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved, <a href="index.html" style="color: white; font-weight: bold;">Kiran's Delight</a></p>
+        </div>
+    </body>
+</html>
